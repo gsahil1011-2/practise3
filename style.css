@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(10,177,240);
+    background: linear-gradient(90deg, rgba(10,177,240,1) 37%, rgba(255,207,117,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 20rem;
+    margin: 3rem auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+.headder{
+    background-color: steelblue;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.4rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.4rem 1rem;
+    font-size: 1.2rem;
+    background-color: rgb(237, 232, 232);
+    border: none;
+    outline: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow-wrap: break-word;
+}
+li:nth-child(even){
+    padding: 0.4rem 1rem;
+    font-size: 1.2rem;
+    background-color: rgb(237, 232, 232);
+
+}
+li:nth-child(odd){
+    padding: 0.4rem 1rem;
+    font-size: 1.2rem;
+    background-color: white;
+
+}
+span{
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+}
+i{
+    color: #8e8e91;
+    margin: 0 0.5rem;
+}
+i:hover{
+    cursor: pointer;
+}
+.add:hover{
+    cursor: pointer;
+}
+.crossOver{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.invisible{
+    display: none;
+}
